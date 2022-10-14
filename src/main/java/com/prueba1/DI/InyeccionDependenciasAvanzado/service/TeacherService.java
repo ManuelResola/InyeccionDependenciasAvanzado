@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 
 @Service("Teacher")
 public class TeacherService implements PersonService<Person> {
-    int numberAge=1;
+
 
     @Override
     public String process() {
         System.out.println("this person is a teacher");
-        return null;
+        return "this person is a teacher";
     }
 
     @Override

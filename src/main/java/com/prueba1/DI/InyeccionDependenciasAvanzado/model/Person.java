@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 public class Person implements Serializable {
 
-    private static final long serialVersionUID = 1L;
-
     private String personName;
     private String personType;
 
@@ -25,10 +23,6 @@ public class Person implements Serializable {
         this.personType = personType;
     }
 
-    @Override
-    public String toString() {
-        return "Person [personNAme=" + personName + ", personType=" + personType + "]";
-    }
 
 
 }

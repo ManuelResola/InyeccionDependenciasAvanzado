@@ -6,21 +6,20 @@ import org.springframework.stereotype.Service;
 
 @Service("Director")
 public class DirectorService implements PersonService<Person> {
-    int numberAge=1;
+
 
     @Override
     public String process() {
         System.out.println("this person is a director");
-        return null;
+        return "this person is a director";
     }
 
-    @Override
     public String getPersonName() {
         return null;
     }
 
-    @Override
     public String getPersonType() {
         return null;
     }
+
 }

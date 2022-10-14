@@ -10,7 +10,7 @@ public class AlumnService implements PersonService<Person> {
     @Override
     public String process() {
         System.out.println("this person is an alumn");
-        return null;
+        return "this person is an alumn";
     }
 
     @Override
